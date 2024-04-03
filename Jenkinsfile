@@ -5,7 +5,7 @@ pipeline {
         stage('Fetch from GitHub') { // build steps
             steps {
                 echo 'Fetching from GitHub'
-                git branch: 'main', url:'https://github.com/taltongsreng/i4a-website.git'
+                git branch: 'TP03', url:'https://github.com/Lyhab/DevOps.git'
             }
         }
         stage('Build using Tools') {
